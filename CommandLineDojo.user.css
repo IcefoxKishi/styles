@@ -1,0 +1,396 @@
+/* ==UserStyle==
+@name           CommandLineDojo
+@namespace      github
+@version        20250129
+@description    cai buon cuoi
+@author         The Icefox Kishi / Higitsune Fujiharu
+==/UserStyle== */
+
+@-moz-document domain("81dojo.com") {
+    *{
+        font-family:'DejaVu Sans Mono', monospace;
+        color: #008f8f;
+    }
+    span[style*="crimson"], .title-tag{
+        span{color: rgb(144, 22, 22) !important;}
+        background: black !important;
+        background-image: repeating-linear-gradient(135deg, transparent, transparent 13px, rgba(252, 41, 41, .2) 13px, rgba(252, 41, 41, .20) 23px ) !important;
+        border: 1px solid #008f8f;
+    }
+    a#flipButton > img{
+        content: url("https://i.vgy.me/bMa6jR.png") !important;
+    }
+    a#clearArrowsButton > img{
+        content: url("https://i.vgy.me/jmmKZs.png") !important;
+    }
+    a#rematchButton > img{
+        content: url("https://i.vgy.me/zrB8qg.png") !important;
+    }
+    div.square-last{
+        background-color: rgba(252, 41, 41, .2);
+    }
+    div.game-timer{
+        background-color:black !important;
+        border: 1px solid #008f8f;
+    }
+    div.game-timer[style*="rgb(255, 255, 0)"]{
+        background-image: repeating-linear-gradient(135deg, transparent, transparent 13px, rgba(227, 255, 55, .20) 13px, rgba(227, 255, 55, .20) 23px );
+        div.game-timer-label{color: rgb(151, 172, 26);}
+    }
+    div.game-timer[style*="rgb(255, 136, 0)"]{
+        background-image: repeating-linear-gradient(135deg, transparent, transparent 13px, rgba(252, 165, 41, .20) 13px, rgba(252, 165, 41, .20) 23px );
+        div.game-timer-label{color: rgb(155, 99, 20);}
+    }
+    div.game-timer[style*="rgb(255, 0, 0)"]{
+        background-image: repeating-linear-gradient(135deg, transparent, transparent 13px, rgba(252, 41, 41, .20) 13px, rgba(252, 41, 41, .20) 23px );
+        div.game-timer-label{color: rgb(159, 24, 24);}
+    }
+    div.menuBar > ul > li > a.button-disabled {
+        background-color:black;
+      background-image: repeating-linear-gradient(135deg, transparent, transparent 13px, rgba(100, 100, 100, .3) 13px, rgba(100, 100, 100, .3) 23px );
+    }
+    i.fa-graduation-cap{
+        color: #008f8f !important;
+    }
+    .game-timer-label{
+        font-family:'DejaVu Sans Mono', monospace !important;
+    }
+    div#boardBox, div#kifu_viewer, div#boardRightVBox, div#boardContents{
+        background-image:none;
+        background-color:black!important;
+    }
+    div#boardMessageArea, div#layerBoard{
+        border: solid 1px #008f8f;
+    }
+    textarea#kifu_comment_content{
+        border: solid 1px #008f8f;
+        background-color: black;
+    }
+    #boardMessageArea, #boardChatInput, #greetButton, #kifuBox, #watcherBox, #lobbyMessageArea, #lobbyChatInput, #gameGrid, #playerListBox{
+        background-color:black !important;
+    }
+    span[style^="color: rgb(0, 51, 221)"]{
+        color:rgb(112, 193, 179) !important;
+    }
+    span[style^="color: rgb(0, 136, 0)"]{
+        color:#0075FF !important;
+    }
+    span[style^="color: rgb(0, 0, 0)"]{
+        color:#FFFFFF !important;
+    }
+    span[style^="color:#00f"]{
+        color:#0075FF !important;
+    }
+    tr.odd{
+        background-color: black !important;
+        background-image: repeating-linear-gradient(135deg, transparent, transparent 13px, rgba(0, 143, 143, 0.20) 13px, rgba(0, 143, 143, 0.20) 23px );
+    }
+    tr.selected{
+        background-color: black !important;
+        background-image: repeating-linear-gradient(135deg, transparent, transparent 13px, rgba(255, 112, 55, .20) 13px, rgba(255, 112, 55, .20) 23px );
+    }
+    tr.even{
+        background-color: black !important;
+    }
+    tr.odd:hover, tr.even:hover{
+        background-color: black !important;
+        background-image: repeating-linear-gradient(135deg, transparent, transparent 13px, rgba(227, 255, 55, .20) 13px, rgba(227, 255, 55, .20) 23px );
+    }
+    div#playerGridWrapper .dataTables_paginate .paginate_button.current{
+        background-color: black !important;
+        background-image: repeating-linear-gradient(135deg, transparent, transparent 13px, rgba(227, 255, 55, .20) 13px, rgba(227, 255, 55, .20) 23px );
+        border-right: 1px solid #008F8F;
+        
+    }
+    div#playerGridWrapper .dataTables_paginate .paginate_button:hover{
+        border-bottom: 1px solid #008f8f;
+        border-right: 1px solid #008f8f;
+    }
+    div#playerGridWrapper .dataTables_paginate .paginate_button{
+        background-color: black !important;
+        border-right: 1px solid #008F8F;
+        border-bottom: 1px solid #008F8F;
+    }
+    div#lobbyMessageArea, div.grid-wrapper, table.dataTable thead th, table.dataTable tfoot th{
+        border: 1px solid #008F8F;
+    }
+    .ui-dialog .ui-dialog-content{
+        background-color: black;
+        color:#008f8f;
+    }
+    div.player-info{
+        background-color: black; background-image: none;
+        text-align:center;
+        border: solid 2px #008F8F !important;
+    }
+    div.player-info-has-turn{
+        background-image: repeating-linear-gradient(135deg, transparent, transparent 13px, rgba(252, 41, 41, .20) 13px, rgba(252, 41, 41, .20) 23px ) !important;
+    }
+    span[class^="name-winner"]{
+        background-color:yellow;
+    }
+    table.dataTable thead .sorting_desc, table.dataTable thead .sorting_asc{
+        background-color: black !important;
+        background-image: repeating-linear-gradient(135deg, transparent, transparent 13px, rgba(227, 255, 55, .20) 13px, rgba(227, 255, 55, .20) 23px );
+        border-bottom: 0;
+        border-top: 0;
+    }
+    div.dataTables_scrollBody{
+        background-color:black;
+    }
+    input, body, span.secure, p#loginAlert, ul#thanksList > li > a{
+        color: #008f8f;
+        background-color: black;
+    }
+    input#lobbyChatInput, input#usernameInput, input#passwordInput, input#boardChatInput, input#findUser{
+        border: solid 1px #008F8F;
+    }
+    input#loginButton:hover, input#reloginButton:hover{
+        background-image: repeating-linear-gradient(135deg, transparent, transparent 13px, rgba(0, 143, 143, 0.20) 13px, rgba(0, 143, 143, 0.20) 23px );
+    }
+    .ui-dialog{
+        background-color:black !important;
+        border: 1px solid #008f8f !important;
+    }
+    .ui-dialog .ui-dialog-titlebar {
+      border-radius: 0 !important;
+      background:black !important;
+      color: #008f8f !important;
+      padding: 0 0 0 10px !important;
+      height: 26px;
+      vertical-align: middle;
+      line-height: 26px;
+      font-size: 13px;
+    }
+    .ui-widget-content {
+     border: 1px solid #008f8f;
+     background: black;
+     background-image: none;
+     color: #008f8f;
+    }
+    .ui-widget-header{
+        border: 1px solid #008f8f;
+    }
+    div#layerLogin{
+        background-image: url("https://i.vgy.me/xShGxT.png");
+    }
+    img#entrance-img{
+        content: url("https://i.vgy.me/OQWnKJ.png") !important;
+    }
+    .ui-dialog .ui-dialog-buttonpane button{
+        background-color: black;
+        color: #008f8f;
+        border: 1px solid #008f8f;
+    }
+    .ui-dialog .ui-dialog-buttonpane button:hover{
+        background-image: repeating-linear-gradient(135deg, transparent, transparent 13px, rgba(0, 143, 143, 0.20) 13px, rgba(0, 143, 143, 0.20) 23px );
+    }
+    table.dataTable thead th{
+        background-color: black;
+        border-left: 1px solid #008f8f !important;
+    }
+    input[type="submit"], input[type="button"], button {
+        border-radius: 0 !important;
+        border: 1px solid #008f8f;
+    }
+    input[type=radio]{display:none;}
+    input[type=radio]+span{
+        background-image: url("https://i.vgy.me/k3JEBk.png");
+        background-repeat:no-repeat;
+        padding-left: 17px;
+        padding-right: 5px;
+    }
+    input[type=radio]:checked+span{
+        background-image: url("https://i.vgy.me/sWvX3r.png");
+        background-repeat:no-repeat;
+        padding-left: 17px;
+        padding-right: 5px;
+    }
+    input[type=checkbox]{display:none;}
+    input[type=checkbox]+span, input[type=checkbox]+i{
+        background-image: url("https://i.vgy.me/k3JEBk.png");
+        background-repeat:no-repeat;
+        padding-left: 17px;
+        padding-right: 5px;
+    }
+    input[type=checkbox]:checked+span, input[type=checkbox]:checked+i{
+        background-image: url("https://i.vgy.me/ZSsp3P.png");
+        background-repeat:no-repeat;
+        padding-left: 17px;
+        padding-right: 5px;
+    }
+    select#languageSelector, select#postgame_study_level, select#english_level, select{
+        font-family: "DejaVu Sans Mono" !important;
+        background-color:black;
+        border-radius:0;
+        border: 1px solid #008f8f;
+    }
+    span.secure::before{
+        font-family: "Inter";
+        content:' ';
+        background-image:url("https://i.vgy.me/gkgC9R.png");
+        margin-top: 2px;
+        margin-right: 2px;
+    }
+    th, td{
+        color: #008f8f !important;
+    }
+    table.invisible{
+        th,td{
+            background-color: black;
+        }
+    }
+    canvas#snowfallCanvas{
+        display:none !important;
+    }
+    div.menuBar{
+        background-color:black;
+    }
+    div.menuBar > ul > li{
+        border-left: solid 1px #008f8f;
+        border-bottom: solid 1px #008f8f;
+        a[data-i18n-title="lobby.refresh"] > img{
+            content: url("https://i.vgy.me/Yc1hXK.png") !important;
+        }
+        a[data-i18n-title="lobby.logout"]{
+            border-right: solid 1px #008f8f;
+        }
+        a[data-i18n-title="lobby.options"]{
+            border-right: solid 1px #008f8f;
+            img{
+                content: url("https://i.vgy.me/ofgNyb.png") !important;
+            }
+        }
+        a[data-i18n-title="lobby.websystem"] > img{
+            content: url("https://i.vgy.me/VsUNVW.png") !important;
+        }
+        a.button{
+            color: #008f8f !important;
+        }
+    }
+    div#pieceDesignSelector{
+        background-color: black;
+        border: 2px solid #008f8f;
+        padding: 2px;
+    }
+    input{
+        border: 1px solid #008f8f;
+        font-family: "DejaVu Sans Mono" !important;
+    }
+    span.clock-digits{
+        background-color: black;
+        border: solid 1px #008f8f;
+    }
+    span.clock-digits:not(span.clock-night){
+        background-image: repeating-linear-gradient(135deg, transparent, transparent 13px, rgba(227, 255, 55, .20) 13px, rgba(227, 255, 55, .20) 23px );
+    }
+    span.clock-night{
+        color: #008f8f;
+    }
+    span.clock-label{
+        color: #008f8f;
+    }
+    .ui-widget button{
+        font-family: "DejaVu Sans Mono" !important;
+    }
+    div#optionTabs > ul > li{
+        background-color:black;
+        a{
+            color: #008f8f;
+        }
+    }
+    .ui-state-active, .ui-state-hover{
+        background-color:black !important;
+        border: 1px solid #008f8f !important;
+        border-radius: 0;
+        background-image: repeating-linear-gradient(135deg, transparent, transparent 13px, rgba(0, 143, 143, 0.20) 13px, rgba(0, 143, 143, 0.20) 23px ) !important;
+    }
+    .ui-state-default{
+        background-color:black !important;
+        border: 1px solid #008f8f !important;
+        border-radius: 0;
+        a{
+            color: #008f8f !important;
+        }
+    }
+    a.main_menu{
+        background-color: black;
+        background-image: repeating-linear-gradient(135deg, transparent, transparent 13px, rgba(0, 143, 143, 0.20) 13px, rgba(0, 143, 143, 0.20) 23px ) !important;
+        transition: none;
+    }
+    a.main_menu:hover{
+        border: 1px solid #008f8f;
+        background-color:black;
+    }
+    h3{
+        background-image: repeating-linear-gradient(135deg, transparent, transparent 13px, rgba(255, 153, 0, .2) 13px, rgba(255, 153, 0, .2) 23px ) !important;
+    }
+    .ui-tabs-panel{
+        border: 1px solid #008f8f !important;
+        border-radius: 0;
+    }
+    h3 > i.fa{
+        color: #f90;
+    }
+    div#lobbyHeader > img[src^="img/favicon.gif"], img[src^="/assets/favicon"]{
+        content: url("https://i.vgy.me/QJELAN.png") !important;
+    }
+    img[src="img/EARTH.png"]{
+        content: url("https://i.vgy.me/5h3sN4.png") !important;
+    }
+    img[src="img/MARS.png"]{
+        content: url("https://i.vgy.me/kQuLVJ.png") !important;
+    }
+    img[src="img/VENUS.png"]{
+        content: url("https://i.vgy.me/7hHv3S.png") !important;
+    }
+    img[src="img/URANUS.png"]{
+        content: url("https://i.vgy.me/VfMyab.png") !important;
+    }
+    img[src="img/NEPTUNE.png"]{
+        content: url("https://i.vgy.me/719nUQ.png") !important;
+    }
+    div#privateRoomPass{
+        background-color: black;
+    }
+    div#replayButtons > button{
+        background-color: black;
+    }
+    body#root{
+        background-color: black;
+    }
+    hr{
+        border-top: 1px solid #008f8f !important;
+    }
+    div#header, h2{
+        background-image: repeating-linear-gradient(135deg, transparent, transparent 13px, rgba(0, 143, 143, 0.20) 13px, rgba(0, 143, 143, 0.20) 23px );
+        background-color:black;
+        border:1px solid #008f8f;
+        color: #008f8f;
+    }
+    a#logo{
+        color: #008f8f;
+    }
+    table.list{
+        th{
+            background-color: black;
+            background-image: repeating-linear-gradient(135deg, transparent, transparent 13px, rgba(0, 143, 143, 0.20) 13px, rgba(0, 143, 143, 0.20) 23px ) !important;
+        }
+        td{
+            background-color: black;
+        }
+    }
+    pre:not(table > tbody > tr > td > pre){
+        background-color: black;
+        border: 1px solid #008f8f;
+    }
+    div#charts > div > div > p{
+        background-color: black !important;
+        border: 1px solid #008f8f !important;
+    }
+    table.simple{border:none;}
+    table.simple > tbody > tr > td{
+        border: 1px solid #008f8f;
+        background-color: black;
+    }
+}
