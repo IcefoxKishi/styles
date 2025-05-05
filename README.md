@@ -8,6 +8,7 @@
 6. Shōsen Series - Hakumeikō (Twilight)
 7. Shōsen Series - Kaien (Petrel) Ichiji
 8. Shōsen Series - Kazanami (Winds & Waves) Ichiji
+9. Shōsen Series - Ryūsui (Flowing Water)
 ## Planned
 Total of 11 styles in the Shōsen Series to be uploaded in May.
 ## Credits
