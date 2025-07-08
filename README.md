@@ -18,12 +18,17 @@
 16. Asato Red, on tiger
 17. Hakudō Red, on tiger
 18. Sōho-gonomi Red, on tiger
-19. Kiyoyasu Red
+19. Kiyoyasu Red, on tiger
 20. Mine Red, on tiger
-21. Kōsai Red
+21. Kōsai Red, on peacock
 22. Ryūji Red, on tiger
 23. Shigemine 1-Kanji, on tiger
 24. Sōsho Red, straight grain
+25. Muken Red, on tiger
+26. Uzen 1-Kanji Red, on peacock
+27. Chōroku Red, on tiger
+## Installation instructions
+With the Stylus extension installed ([chrome](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?pli=1) [firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)), go to any file ending in .user.css, click the Raw button on top right, then Install style in Stylus.
 ## Credits
 All calligraphy in the Shōsen Series belong to said piece maker (https://ojny4.crayonsite.info/).
 
