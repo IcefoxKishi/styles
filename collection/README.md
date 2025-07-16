@@ -1,4 +1,5 @@
 # Piece previews
+Installation instructions [here](https://github.com/IcefoxKishi/styles?tab=readme-ov-file#installation-instructions).
 | Style | Normal | Red |
 | --- | --- | --- |
 | Asato, on tiger | WIP | ![](previews/asato_R_preview.png) |
