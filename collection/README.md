@@ -26,12 +26,12 @@
 | Mine, on tiger | WIP | ![](previews/mine_R_preview.png) |
 | Muken, on tiger | WIP | ![](previews/muken_R_preview.png) |
 | Nakabori | NA | ![](previews/nakabori_R_preview.png) |
-| Okuno Sōgyoku Kinki, on tiger | ![](previews/okuno_kinki_R_preview.png) | NA |
+| Okuno Sōgyoku Kinki, on tiger | WIP | ![](previews/okuno_kinki_R_preview.png) |
 | Ōyama, on tiger | WIP | ![](previews/ooyama_R_preview.png) |
 | Ryūji, on tiger | WIP | ![](previews/ryuuji_R_preview.png) |
 | Ryūkō, on tiger | WIP | ![](previews/ryuukou_R_preview.png) |
 | Shissho/Ninju, straight grain | ![](previews/shissho_preview.png) | NA |
-| Shōryū, on tiger | ![](previews/shouryuu_R_preview.png) |
+| Shōryū, on tiger | WIP | ![](previews/shouryuu_R_preview.png) |
 | Shigemine 1-Kanji | ![](previews/sigemine_preview.png) | WIP |
 | Sōho-gonomi, on tiger | WIP | ![](previews/souhogonomi_R_preview.png) |
 | Sōsho, on tiger | WIP | ![](previews/sousho_R_preview.png) |
