@@ -1,6 +1,6 @@
 # Piece previews
 | Style | Normal | Red |
-| --- | --- |
+| --- | --- | --- |
 | Asato, on tiger | WIP | ![](previews/asato_R_preview.png) |
 | Chikufū Minase, straight grain | ![](previews/chikufuu_minase_preview.png)| NA |
 | Chikufū Ryōko, root pattern | ![](previews/chikufuu_ryouko_preview.png) | NA |
