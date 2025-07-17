@@ -37,6 +37,7 @@ Installation instructions [here](https://github.com/IcefoxKishi/styles?tab=readm
 | Sōho-gonomi, on tiger | WIP | ![](previews/souhogonomi_R_preview.png) |
 | Sōsho, on tiger | WIP | ![](previews/sousho_R_preview.png) |
 | Tōshichisei, on tiger | WIP | ![](previews/tou7sei_preview.png) |
+| Uebori | NA | ![](previews/uebori_R_preview.png) |
 | Uzen 1-Kanji, on peacock | WIP | ![](previews/uzen_R_preview.png) |
 | Wang Xizhi, on tiger | WIP | ![](previews/wxz_R_preview.png) |
 | Yasukiyo, on tiger | WIP | ![](previews/yasukiyo_R_preview.png) |
