@@ -2,6 +2,8 @@
 Installation instructions [here](https://github.com/IcefoxKishi/styles?tab=readme-ov-file#installation-instructions).
 | Style | Normal | Red |
 | --- | --- | --- |
+| 1-Kanji | WIP | ![](previews/1ji_masame_preview.png) |
+| 1-Kanji, straight grain | ![](previews/1ji_masame_preview.png) | NA |
 | Asato, on tiger | WIP | ![](previews/asato_R_preview.png) |
 | Chikufū Minase, straight grain | ![](previews/chikufuu_minase_preview.png)| NA |
 | Chikufū Ryōko, root pattern | ![](previews/chikufuu_ryouko_preview.png) | NA |
